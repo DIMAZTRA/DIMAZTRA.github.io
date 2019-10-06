@@ -8,17 +8,15 @@ html {
     box-sizing: inherit;
 }
 
-html {
-    overflow-x: hidden;
-    width: 100%;
-}
-
-body {
-    overflow-x: hidden;
-    position: relative;
-    width: 100%;
-}
-
+// html {
+//     overflow-x: hidden;
+//     width: 100%;
+// }
+// body {
+//     overflow-x: hidden;
+//     position: relative;
+//     width: 100%;
+// }
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -36,7 +34,6 @@ body {
 a {
     display: inline-block;
     text-decoration: none;
-    color: $text;
 }
 
 ul,
@@ -46,14 +43,15 @@ li {
     list-style: none;
 }
 
-body {}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #1d1d21;
+    background-color: #fff;
+}
 
-.container {}
-
-.container-fluid {}
-
-@media(max-width:720px) {
-    .container-fluid {
-        padding: 0 15px;
-    }
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1310px;
 }
