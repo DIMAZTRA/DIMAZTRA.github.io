@@ -1,0 +1,20 @@
+$text:#546e7a;
+@mixin f500 {}
+
+@mixin f300 {}
+
+@mixin f700OS {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+@mixin f700 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+@mixin f700i {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
