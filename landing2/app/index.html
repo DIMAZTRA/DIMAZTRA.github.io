@@ -15,6 +15,9 @@
 
 <body>
     <div class="wrapper">
+        <div class="scrollbar" id="style7">
+            <div class="force-overflow"></div>
+        </div>
         <div class="content">
             <header class="header">
 
@@ -22,7 +25,7 @@
                     <div class="container">
                         <div class="header__top-inner">
 
-                            <div class="header__menu">
+                            <nav class="header__menu">
                                 <img src="images/logo (1).png" alt="">
                                 <ul class="header__menu-list">
                                     <li>
@@ -38,7 +41,7 @@
                                         <a href="#">MORE</a>
                                     </li>
                                 </ul>
-                            </div>
+                            </nav>
 
                             <div class="login-menu">
 
@@ -54,6 +57,12 @@
                                     <a class="login-btn" href="#">LOGIN</a>
                                 </div>
 
+
+                            </div>
+                            <div class="header__menu-btn">
+                                <div class="header__menu-row"></div>
+                                <div class="header__menu-row"></div>
+                                <div class="header__menu-row"></div>
                             </div>
                         </div>
                     </div>
@@ -109,7 +118,7 @@
                             </div>
                             <div class="header__content-information">
                                 <div class="header__content-title">
-                                    <span>Madrid</span> flights from 22,99 €!
+                                    <span>Madrid</span> flights<br class="br-class"> from 22,99 €!
                                 </div>
                                 <div class="header__content-text">
                                     Hurry to take advantage of the limited number of tickets!
@@ -128,6 +137,7 @@
                 </div>
 
             </header>
+
             <section class="tour">
                 <div class="container">
                     <div class="tour__inner">
@@ -188,12 +198,20 @@
                     </div>
                 </div>
             </section>
+
             <section class="cities">
                 <div class="city__bg-design" style=" background-image: url(images/bg-blue.png);"></div>
                 <div class="container">
 
                     <div class="cities__inner">
-                        <div class="city__item-images">
+
+                        <div class="cities__title">
+                            THESE CITIES ARE VERY POPULAR!
+                        </div>
+                        <div class="cities__towns">
+                            TBILISI<span>...</span>LONDON<span>...</span>NEW YORK<span>...</span> <span class="main__town">BERLIN</span><span>...</span>BUDAPESHT<span>...</span>PARIS<span>...</span>STAMBUL
+                        </div>
+                        <div class="city__items-images">
                             <div class="city__item-img city__item-img1" style=" background-image: url(images/pic1.jpg);">
                             </div>
                             <div class="city__item-img city__item-img2" style=" background-image: url(images/pic2.jpg);">
@@ -201,17 +219,21 @@
                             <div class="city__item-img city__item-img3" style=" background-image: url(images/pic3.jpg);">
                             </div>
                         </div>
-                        <div class="cities__title">
-                            THESE CITIES ARE VERY POPULAR!
-                        </div>
-                        <div class="cities__towns">
-                            TBILISI<span>...</span>LONDON<span>...</span>NEW YORK<span>...</span> <span class="main__town">BERLIN</span><span>...</span>BUDAPESHT<span>...</span>PARIS<span>...</span>STAMBUL
+
+                        <div class="city__item-slider">
+                            <div class="city__item-slide">
+                                <img src="images/pic1.jpg" alt=""></div>
+                            <div class="city__item-slide">
+                                <img src="images/pic2.jpg" alt=""></div>
+                            <div class="city__item-slide">
+                                <img src="images/pic3.jpg" alt=""></div>
                         </div>
 
 
                     </div>
                 </div>
             </section>
+
             <section class="place">
                 <div class="container">
                     <div class="place__inner">
@@ -451,5 +473,7 @@
     <script src="js/main.js"></script>
 
 </body>
+
+
 
 </html>

@@ -13,6 +13,31 @@ $(function() {
         speed: 300,
         slidesToShow: 4,
         slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 980,
+                settings: {
+
+                    slidesToShow: 3
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    dots: true,
+                    slidesToShow: 1,
+                    nextArrow: false,
+                    prevArrow: false,
+
+                }
+            }
+        ]
+
     });
 
 
@@ -24,4 +49,16 @@ $(function() {
         $('#' + id).addClass('active-tab').fadeIn();
         return false;
     });
+
+    $('.header__menu-btn').on('click', function() {
+        $('.header__menu-list').slideToggle();
+    });
+    $('.city__item-slider').slick({
+        dots: true,
+        speed: 300,
+        arrows: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+    });
+
 })
