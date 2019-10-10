@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17 17" width="17" height="17">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffffff } 
+	</style>
+	<g id="middle section">
+		<g id="text box 3">
+			<path id="view list" class="shp0" d="M1 1L17 1L17 5L1 5L1 1ZM1 7L17 7L17 11L1 11L1 7ZM1 13L17 13L17 17L1 17L1 13Z" />
+		</g>
+	</g>
+</svg>
