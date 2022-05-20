@@ -142,7 +142,7 @@ display: none;
 filter: grayscale(0);
 }
 td.read:hover>.tooltip,td.mimo:hover>.tooltip,td.bah:hover>.tooltip,
-td.redbox:hover>.tooltip,td.redkey:hover>.tooltip,td.bluebox:hover>.tooltip
+td.redbox:hover>.tooltip,td.redkey:hover>.tooltip,td.bluebox:hover>.tooltip,
 td.portal:hover>.tooltip,td.bluekey:hover>.tooltip,td.metka:hover>.tooltip
 {
 display: block;
