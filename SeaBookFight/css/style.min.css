@@ -81,6 +81,7 @@ li {
       background-image: url(../images/bax.png);
       background-size: cover;
       background-repeat: no-repeat;
+      border: 2px solid red;
 }
 .table_blur td.empty{
       background-image: url(../images/empty.png);
