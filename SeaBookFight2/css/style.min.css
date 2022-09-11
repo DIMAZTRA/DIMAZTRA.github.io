@@ -162,7 +162,7 @@ display: none;
 filter: grayscale(0);
 }
 td.read:hover>.tooltip,td.mimo:hover>.tooltip,td.bah:hover>.tooltip,
-td.shtil:hover>.tooltip,td.kotik:hover>.tooltip,td.radar:hover>.tooltip
+td.shtil:hover>.tooltip,td.kotik:hover>.tooltip,td.radar:hover>.tooltip,
 td.portal:hover>.tooltip,td.rom:hover>.tooltip,td.metka:hover>.tooltip
 {
 display: block;
