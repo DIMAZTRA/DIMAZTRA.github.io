@@ -163,7 +163,7 @@ display: none;
 filter: grayscale(0);
 }
 td.read:hover>.tooltip,td.mimo:hover>.tooltip,td.bah:hover>.tooltip,
-td.shtil:hover>.tooltip,td.kotik:hover>.tooltip,td.radar:hover>.tooltip,
+td.shtil:hover>.tooltip,td.radar:hover>.tooltip,
 td.portal:hover>.tooltip,td.rom:hover>.tooltip,td.metka:hover>.tooltip
 {
 display: block;
@@ -178,6 +178,9 @@ td.empty:hover>.tooltip2{
 }
 td.bonus:hover>.tooltip3{
   display: block;
+}
+td.kotik:hover>.tooltip3{
+   display: block;
 }
 td.bonus:hover>.tooltip{
   display: none !important;
