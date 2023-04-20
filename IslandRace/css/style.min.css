@@ -74,6 +74,7 @@ width: 15%;
 display: flex;
 justify-content: center;
 align-items: center;
+ color: wheat;
 }
 body {
     font-family: 'Fuzzy Bubbles', sans-serif;
