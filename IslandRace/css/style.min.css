@@ -133,6 +133,7 @@ li {
     width: 90%;
     margin: 0 auto;
     padding: 15px;
+    background-position: center;
   }
 .table_blur tr {
     background: #ebf3f9;
