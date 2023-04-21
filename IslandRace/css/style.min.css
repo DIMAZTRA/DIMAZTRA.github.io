@@ -30,6 +30,7 @@ html {
 column-count: 2;
 column-gap: 4%;
 padding-left: 140px;
+    padding-bottom: 25px;
 border-radius: 40px;
 }
 .tablo_name{
