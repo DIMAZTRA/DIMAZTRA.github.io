@@ -193,7 +193,7 @@ filter: grayscale(0);
 td.read:hover>.tooltip,td.mimo:hover>.tooltip,td.bah:hover>.tooltip,
 td.shtil:hover>.tooltip,td.kotik:hover>.tooltip,td.radar:hover>.tooltip,
 td.pes:hover>.tooltip,td.rom:hover>.tooltip,td.metka:hover>.tooltip,
-td.black-key:hover>.tooltip,td.kraken:hover>.tooltip,
+td.black-key:hover>.tooltip,td.kraken:hover>.tooltip,td.free:hover>.tooltip,
 td.blue-key:hover>.tooltip,td.red-key:hover>.tooltip
 {
 display: block !important;
