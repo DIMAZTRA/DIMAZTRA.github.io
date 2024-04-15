@@ -102,6 +102,7 @@ li {
       background-repeat: no-repeat;
 }
 .table_blur td.blue-key{
+    
       background-image: url(../images/bluekey.jpg);
       background-size: cover;
       background-repeat: no-repeat;
