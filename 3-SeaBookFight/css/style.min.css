@@ -102,7 +102,7 @@ li {
       background-repeat: no-repeat;
 }
 .table_blur td.blue-key{
-      background-image: url(../images/bluekey.png);
+      background-image: url(../images/bluekey.jpg);
       background-size: cover;
       background-repeat: no-repeat;
 }
@@ -137,8 +137,8 @@ li {
       background-size: contain;
       background-repeat: no-repeat;
 }
-.table_blur td.gold{
-      background-image: url(../images/gold-3.jpg);
+.table_blur td.gold-2{
+      background-image: url(../images/gold-2.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       border-color: yellow;
