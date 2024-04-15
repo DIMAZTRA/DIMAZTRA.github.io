@@ -107,6 +107,12 @@ li {
       background-size: cover;
       background-repeat: no-repeat;
 }
+.table_blur td.black-key{
+    
+      background-image: url(../images/bluekey.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+}
 
 .table_blur td.mimo{
       background-image: url(../images/red-cross.png);
